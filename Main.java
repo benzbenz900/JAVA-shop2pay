@@ -14,8 +14,8 @@ class Main {
   public static String secertkey = "EBnIetGKawROEtNDXjMY2OgYq3yEkxZDFBRA3npADU0261NIk2m4SduOvtXzkbBo";
 
   public static void main(String[] args) {
-    // autoqrcode
 
+    // autoqrcode
     JSONObject autoqrcode_payload = new JSONObject()
     .put("orderid", "string")
     .put("account", "0912541428")
@@ -26,7 +26,6 @@ class Main {
 
     System.out.println(autoqrcode(autoqrcode_payload));
 
-   
 
     // withdraw
     JSONObject withdraw_payload = new JSONObject()
@@ -37,6 +36,7 @@ class Main {
     .put("name", "string");
        
     System.out.println(withdraw(withdraw_payload));
+
 
     // deposit
     JSONObject deposit_payload = new JSONObject()
